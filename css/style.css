@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/stockholm.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: white;
+}
+
+.jumbotron-header {
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron lead {
+    margin: 40px;
+    color: #00a349;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #727c72;
+}
+
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: red;
+}
+
+
+
