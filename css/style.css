@@ -111,6 +111,10 @@ body {
     background-color: #444
 }
 
+block-divider--pink {
+    background-color: pink
+}
+
 
 .jumbotron small {
     font-size: 60%;
@@ -141,6 +145,22 @@ body {
     color: white;
 }
 
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
 /* Page Headers */
 
 .page-header {
@@ -154,6 +174,10 @@ body {
     
 }
 
+.quotes .page-header {
+    margin-bottom: 30px;
+}
+
 /* content containers */
 
 .content-container {
@@ -161,9 +185,7 @@ body {
     padding-bottom: 75px;
 }
 
-.container-wrapper {
-
-}
+.container-wrapper {}
 
 .container-wrapper--red {
     background-color: #f05f40;
