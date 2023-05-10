@@ -103,6 +103,12 @@ body {
     height: 5px;
     border: 0;
     background-color: white;
+       
+}
+
+.block-divider--short {
+    width: 35px;
+    background-color: #444
 }
 
 
@@ -132,6 +138,35 @@ body {
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
+    color: white;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+    
+}
+
+/* content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
     color: white;
 }
 
